@@ -6,6 +6,11 @@ handler404 = 'home.views.custom_404_view',
 urlpatterns = [
     path('', views.home,name='home'),
     path('about_us/', views.aboutus,name='aboutus'),
+    path('services_doggy_day_camp/', views.doggydaycamp,name='doggydaycamp'),
+    path('boarding/', views.see_pricing,name='boarding'),
+    path('grooming/', views.grooming,name='grooming'),
+    path('doggy_day_camp/', views.doggycamp,name='doggycamp'),
+    path('puppy_play_group/', views.puppyplay,name='puppyplay'),
 
 
 

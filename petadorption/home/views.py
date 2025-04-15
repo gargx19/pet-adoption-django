@@ -24,6 +24,21 @@ def home(request):
 def aboutus(request):
     return render(request ,'about.html')
 
+def doggydaycamp(request):
+    return render(request ,'doggydaycamp.html')
+
+def see_pricing(request):
+    return render(request ,'boarding.html')
+
+def grooming(request):
+    return render(request ,'grooming.html')
+
+def doggycamp(request):
+    return render(request , 'doggycamp.html')
+
+def puppyplay(request):
+    return render(request ,'PuppyPlayGroup.html')
+
 # === Role check decorators ===
 def is_admin(user):
     return user.role == "admin"
